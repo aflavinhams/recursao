@@ -1,3 +1,4 @@
+
 # ---------------------   EXERCÍCIO 1 ------------------------
 
 # Letra a
@@ -113,4 +114,6 @@ print(S('aa'))
 
 def triangulos(n):
 
-    return n == (n**2 + n - 2) / 2 + 1
+    formula = (n**2 + n - 2) / 2 + 1
+
+    return formula
